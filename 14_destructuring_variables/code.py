@@ -1,7 +1,11 @@
-x = (5, 11)
+# people = [("Bob", 42, "Mechanic"), ("James", 24, "Artist"), ("Harry", 32, "Lecturer")]
 
-student_attendance = {"Rolf": 96, "Bob": 80, "Anne": 100}
-print(list(student_attendance.items()))
+# for name, age, profession in people:
+#     print(f"Name: {name}, Age: {age}, Profession: {profession}")
+people = ("Bob", 42, "Mechanic")
+name, _, profession = people
+print(name, profession)
 
-# for t in student_attendance.items():
-#     print(f"{student}: {attendance} ")
+head, *tail = [1, 2, 3, 4, 5]
+print(head)
+print(tail)
