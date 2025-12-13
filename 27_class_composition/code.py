@@ -1,10 +1,21 @@
 class BookShelf:
-    def __init__(self, quantity):
-        self.quantity = quantity
+    def __init__(self, *books):
+        self.books = books
 
     def __str__(self):
-        return f"Bookshelf with {self.quantity} books"
+        return f"Bookshelf with {len(self.books)} books"
 
-shelf = BookShelf(300)  
 
+
+class Book:
+    def __init__(self, name):
+        self.name = name
+    def __str__(self):
+        return f"Book {self.name!r}"
+    
+book = Book("Python Programming")
+book2 = Book("Harry Potter")
+shelf = BookShelf(book, book2)
 print(shelf)
+shelf.books[0]
+print(shelf.books[0])       
