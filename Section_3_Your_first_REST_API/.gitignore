@@ -1,5 +1,9 @@
+# Virtual environment
 venv/
+
+# VS Code settings
 .vscode/
-docker-compose.debug.yml
-docker-compose.yml
-Dockerfile
+
+# Python cache
+__pycache__/
+*.pyc
