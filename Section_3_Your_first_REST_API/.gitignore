@@ -7,3 +7,7 @@ venv/
 # Python cache
 __pycache__/
 *.pyc
+
+resources/
+__pycache__/
+*.pyc
