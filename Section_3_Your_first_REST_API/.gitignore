@@ -13,3 +13,7 @@ __pycache__/
 migrations/
 
 .DS_Store
+
+
+.venv/
+instance/
